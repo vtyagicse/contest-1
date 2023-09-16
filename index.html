@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Dream City</title>
+    <style>
+      * {
+        margin: 1px;
+        padding: 0 1px;
+        box-sizing: border-box;
+      }
+
+      /* Set a background color and font for the entire page */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Style the header section */
+      header {
+        background-color: #ff004c;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+      }
+
+      header p {
+        font-size: 1.2em;
+      }
+
+      /* Style the navigation menu */
+      nav ul {
+        background-color: #333;
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      /* Style the hr element */
+      hr {
+        border: 1px solid #ccc;
+        margin: 20px 0;
+      }
+
+      /* Style the main content sections */
+      section {
+        padding: 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      section h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      section img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Style the table */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      /* Style the form elements */
+      form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      form input[type="text"],
+      form input[type="number"],
+      form input[type="email"],
+      form select,
+      form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      form input[type="checkbox"] {
+        margin-right: 5px;
+      }
+
+      form input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      /* Style the quotes section */
+      #quotes p {
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+
+      #quotes span {
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      /* Style the contact section */
+      #contact address {
+        font-style: italic;
+        margin-top: 10px;
+      }
+
+      #contact a {
+        color: #007bff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>Agra</h1>
+        <p>City of the Taj: A Gateway to Architectural Excellence</p>
+      </header>
+    </section>
+
+    <nav>
+      <ul>
+        <a href="#description">City Description |</a>
+        <a href="#attractions">Attractions |</a>
+        <a href="#statistics">City Statistics |</a>
+        <a href="#feedback">Citizen Feedback |</a>
+        <a href="#quotes">Quotes |</a>
+        <a href="#contact">Contact |</a>
+      </ul>
+    </nav>
+    <hr />
+    <section id="description">
+      <h2>Discover Agra</h2>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+        alt="Taj Mahal"
+        width="500"
+        height="333"
+      />
+      <p>
+        Agra is a city on the banks of the river Yamuna in the northern state of Uttar Pradesh, India. 
+        It is 378 kilometers west of the state capital, Lucknow, 206 kilometers south of the national capital New Delhi, 
+        58 kilometers south from Mathura and 125 kilometers north of Gwalior. 
+        Agra is one of the most populous cities in Uttar Pradesh, and the 24th most populous city in India.
+        Agra is a major tourist destination because of its many Mughal-era buildings, most notably the Taj Mahal, 
+        Agra Fort and Fatehpur Sikri, all three of which are UNESCO World Heritage Sites.
+      </p>
+    </section>
+    <hr />
+    <section id="attractions">
+      <h2>Attractions</h2>
+
+      <ol>
+        <li>Agra fort</li>
+        <li>Fatehpur Sikri</li>
+        <li>I'timād-ud-Daulah's tomb</li>
+      </ol>
+
+      <h3>Local Favourites</h3>
+
+      <ul>
+        <li>Panchhi Petha</li>
+        <li>Leather Shoes</li>
+        <li>
+            Agra fort
+          <ul style="list-style-type: circle">
+            <li>Lorem.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <hr />
+    <section id="statistics">
+      <h2>City Statistics</h2>
+
+      <table border="1px">
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Population</td>
+            <td>1.6 Million</td>
+          </tr>
+          <tr>
+            <td>Landmarks</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Parks</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Schools</td>
+            <td>120</td>
+          </tr>
+          <tr>
+            <td>historical Places</td>
+            <td>7</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr />
+    <section id="feedback">
+      <h2>Feedback</h2>
+
+      <form method="post">
+        <fieldset>
+          <label for="name">Name*:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+          <label for="email">Email*:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          /><br /><br />
+          <label for="age">Age:*</label>
+          <input type="number" id="age" required /><br /><br />
+          <label for="places">Favourite Attraction:</label>
+          <select name="places" id="places">
+            <option value="" disabled selected>
+              ---Choose your favourite attraction---
+            </option>
+            <option value="Agra fort">Agra fort</option>
+            <option value="I'timād-ud-Daulah's tomb">I'timād-ud-Daulah's tomb</option>
+            <option value="Akbar's Tomb, Sikandra">Akbar's Tomb, Sikandra</option>
+            <option value="Fatehpur Sikri">Fatehpur Sikri</option>
+            <option value="Bateshwar, Uttar Pradesh ">Bateshwar, Uttar Pradesh </option>
+            <option value="Tomb of Mariam-uz-Zamani">Tomb of Mariam-uz-Zamani</option></select
+          ><br /><br />
+          <hr />
+          <label for="text_area">Comments:</label>
+          <textarea
+            id="text_area"
+            name="text_area"
+            placeholder="Write comments here"
+          ></textarea
+          ><br /><br />
+          <label for="subscribe">Subscribe to Newsletter:</label>
+          <input
+            type="checkbox"
+            id="subscribe"
+            name="subscribe"
+            value="yes"
+          /><br />
+
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </section>
+    <section id="quotes">
+      <h2>Quotes from Citizens</h2>
+      <p>
+        <span>"Agra is a city on the banks of the river Yamuna in the northern state of Uttar Pradesh, India."</span> says
+        Nitin.
+      </p>
+      <p>
+        <span>"I fell in love with the city's rich history,"</span> shares
+        Akbar.
+      </p>
+    </section>
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <address>
+        <p><em>Agra Tourism Office</em></p>
+        <p>District Agra</p>
+        <p>
+          Email:
+          <a href="agra.nic.in">agra.nic.in</a>
+        </p>
+      </address>
+    </section>
+    <footer>
+      <p>&copy; 2023 Agra Tourism. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
